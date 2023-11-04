@@ -1,0 +1,3 @@
+*.txt
+# random.txt (This is ignoring the .txt files in the git repo.)
+# random2.txt
