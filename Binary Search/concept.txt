@@ -1,0 +1,5 @@
+So, here I learned about some of the basic approach to get peak element, pivot(min.), occurence of a particular no. in the array.
+
+# Pivot
+$ The approach should be in the graph. ~ Two segments are there, you know it!
+I & II part of the array:

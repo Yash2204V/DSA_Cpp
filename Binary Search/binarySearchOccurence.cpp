@@ -1,7 +1,10 @@
-#include<iostream>
+
+
+/* #include<iostream>
 using namespace std;
 
 int FirstOccu(int arr[], int size, int key){
+
 
     int start = 0;
     int end = size - 1;
@@ -53,4 +56,4 @@ int main(){
     int index2 = LastOccu(arr,6,2);
     cout << "The First & Last Occurence of 2: " << index1 << " " << index2 << endl;
     return 0;
-}
+} */
