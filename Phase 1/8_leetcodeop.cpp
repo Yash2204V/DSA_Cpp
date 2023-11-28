@@ -7,13 +7,15 @@ int main(){
     cin >> n;
     int add = 0;
     while(n != 0){
-        if(add > INT_MAX/10 || add < INT_MIN/10){
+/*         if(add > INT_MAX/10 || add < INT_MIN/10){
             add = 0;
             break;
-        }
+        } */
         int digit = n%10;
         add = (add*10) + digit;
         n = n/10;
+
+        cout << "digit: " << digit << ", n: " << n << endl;
     }
     cout << add;
     cout << '\n';

@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     // #1 Decimal to Binary, eg. n = 4 --> 100
 
-    int n;
+/*     int n;
     cout << "Enter the no.: ";
     cin >> n;
     int i = 0, rem;
@@ -17,10 +17,7 @@ int main(){
     }
     cout << "Binary :" << add;
 
-    cout << '\n';
-}
-
-{
+    cout << '\n'; */
     int n, bit, i = 0;
     cout << "Enter the no.: "; // 4 --> 100
     cin >> n;
@@ -32,9 +29,9 @@ int main(){
         i++;
     }
     cout << add;
-}   
+
     // #2 Binary to Decimal, eg. 100 -> 4
-    {
+/*     {
         int n;
         cout << "Enter the number: ";
         cin >> n;
@@ -46,5 +43,5 @@ int main(){
             i++;
         }
     cout << add;
-    } 
+    }  */
 }

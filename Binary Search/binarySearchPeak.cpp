@@ -60,7 +60,7 @@ int main(){
     int a[7] = {6,9,10,12,1,3,5};
     // cout << "The peak element: " << arr[peakMountain(arr,6)] << endl;
     // cout << "The pivot element: " << a[Getpivot(a,7)] << endl;
-    cout << "The Binary search index: " << binarySearch(arr,6,7) << endl;
+    cout << "The Binary search index: " << binarySearch(arr,6,34) << endl;
 
     
     
