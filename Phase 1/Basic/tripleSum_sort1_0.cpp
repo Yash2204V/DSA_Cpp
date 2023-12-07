@@ -47,10 +47,9 @@ int main(){
 
     int arr[6]= {0,1,0,0,1,1};
     int key = 7;
-    // tripleSum(arr, 6, key);
-    printArray(arr, 6);
-    sort1_0(arr,6);
-    printArray(arr, 6);
+    // printArray(arr, 6);
+    tripleSum(arr, 6, key);
+
 
 
 

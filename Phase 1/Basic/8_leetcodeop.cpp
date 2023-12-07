@@ -1,5 +1,6 @@
 #include<iostream>
 #include<limits.h>
+
 using namespace std;
 int main(){
     // Reverse the integer
@@ -12,7 +13,7 @@ int main(){
             break;
         } */
         int digit = n%10;
-        add = (add*10) + digit;
+        add = (add*pow(10,i)) + digit;
         n = n/10;
 
         cout << "digit: " << digit << ", n: " << n << endl;
