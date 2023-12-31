@@ -40,8 +40,6 @@ void sort1_0(int arr[], int size){
         i++;
         j++;
     }
-
-
 }
 int main(){
 
