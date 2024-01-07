@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 bool permutationString(string s1, string s2){
     int count[26] = {0};
     int indexSum = 0;
@@ -28,7 +27,7 @@ bool permutationString(string s1, string s2){
 
 int main(){
     string s1 = "ab";
-    string s2 = "haiefciabudiufb";
+    string s2 = "haiefciacbudiufb";
     if(permutationString(s1,s2)){
         cout << "It exists";
     }
